@@ -1,0 +1,5 @@
+*.pyc
+build/*
+dist/*
+Litil_Lexer.egg-info/*
+temp/*
