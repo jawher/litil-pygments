@@ -16,13 +16,13 @@ class LitilLexer(RegexLexer):
       'catch', 'exception', 'throw', 'true', 'false'
     ]
     keyopts = [
-      '=','\(','\)','\*','\+',',','-','/'
+      '=','\(','\)','\*','\+',',','-','/', '=>'
       '->','\.',':','<','::',
       '>','\[','\\\\',
       '\]','{','\|','}'
     ]
 
-    word_operators = ['and', 'or']
+    word_operators = ['and', 'or', 'not']
     primitives = ['Number', 'Boolean', 'String', 'Char']
 
     tokens = {
